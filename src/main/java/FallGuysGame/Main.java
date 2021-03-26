@@ -9,5 +9,6 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) throws InterruptedException {
         new FallGuys(new FallGuysService().getSixtyRandomGuys()).start();
+        System.out.println("Я написал транслейтер");
     }
 }
